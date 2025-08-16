@@ -1,0 +1,75 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f2f5f3;
+  color: #222;
+}
+
+header {
+  background: #3c817c;
+  color: #fff;
+  padding: 16px;
+  margin-bottom: 24px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+nav {
+  margin-top: 12px;
+}
+
+nav a {
+  color: #fff;
+  margin-right: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px #eee;
+}
+
+/* Responsive design using media queries */
+@media (max-width: 800px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  nav a {
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    margin: 5px;
+    font-size: 1rem;
+  }
+  header h1 {
+    font-size: 1.2rem;
+  }
+  nav {
+    display: block;
+  }
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+  section {
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+}
+
+/* Desktop layout */
+@media (min-width: 801px) {
+  main {
+    max-width: 800px;
+    margin: auto;
+  }
+}

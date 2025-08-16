@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Styling and JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Advanced Styling and JavaScript</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#quiz-section">Quiz</a>
+      <a href="#api-section">API Data</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <p>
+        This page is responsive, includes an interactive quiz, and fetches real-time data from an API using JavaScript!
+      </p>
+    </section>
+
+    <!-- Interactive Quiz Section -->
+    <section id="quiz-section">
+      <h2>JavaScript Quiz</h2>
+      <div id="quiz-container"></div>
+      <button id="submit-quiz">Submit Answers</button>
+      <div id="quiz-result"></div>
+    </section>
+
+    <!-- API Data Section -->
+    <section id="api-section">
+      <h2>Random Joke</h2>
+      <button id="get-joke">Get a Joke</button>
+      <p id="joke-holder"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
